@@ -1,0 +1,35 @@
+AraayFline= IOFile.readFileSD(DIR_SD , FLesson +".txt", true ) ;
+			
+				
+			//	String imgPath ="";
+			//	currentPic = 0;
+				
+			//	Bitmap pic = null;
+		//		for (int i=0; i < IOFile.CLineFile; i++ ) {
+			//		imgPath=DIR_SD + AraayFline[i]+".png";
+				//	Log.i("MY_L", imgPath+IOFile.CLineFile);
+				//	pic = BitmapFactory.decodeFile(imgPath );
+					//adapter.addPic(pic);
+					//currentPic++;
+				//	}
+			//		gallery.setAdapter(adapter);
+				//	bigimage.setImageBitmap(pic);
+					//bigimage.setScaleType(ImageView.ScaleType.FIT_CENTER);
+					
+					// take user to choose an image
+					// update the currently selected position so that we assign the
+					// imported bitmap to correct item
+				
+					// take the user to their chosen image selection app (gallery or
+					// file manager)
+				//	Intent pickIntent = new Intent();
+				//	pickIntent.setType("image/*");
+				//	pickIntent.setAction(Intent.ACTION_GET_CONTENT);
+					
+					// we will handle the returned data in onActivityResult
+				//	startActivityForResult(
+						//	Intent.createChooser(pickIntent, "Select Picture"),
+					//		PICKER);
+					
+						
+					//gallery.setEnabled(true);
